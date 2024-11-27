@@ -2,6 +2,8 @@
 
 Ein Projekt des [CoderDojo Potsdam](https://coderdojopotsdam.github.io/) zum gemeinsamen Basteln und Programmieren in der Adventszeit.
 
+![Schaubild AdventBox](box.jpg)
+
 Die Box bietet eine Verkleidung für einen eigenen elektrischen Adventskranz.
 Die vier Kerzen des Adventskranzes lassen sich mittels des Tasters nacheinander anschalten.
 Auch wenn der Arduino vom Strom genommen wurde und wieder angesteckt wird, ist wieder die gleiche Anzahl Kerzen an.
