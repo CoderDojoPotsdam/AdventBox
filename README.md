@@ -21,14 +21,16 @@ Auch wenn der Arduino vom Strom genommen wurde und wieder angesteckt wird, ist w
 
 ## Anleitung
 
-1. Zuerst baut ihr aus [Holz](kasten.svg) und Acryl die Box eures Adventskranzes
-2. Nun steckt ihr nach Schaltplan (siehe Datei) auf dem Breadboard alle Komponenten zusammen
+1. Zuerst baust du aus [Holz](kasten.svg) und Acryl die Box eures Adventskranzes.
+2. Verbinde zunächst eine LED mit einem Widerstand und deinem Arduino. Lasse die LED blinken und überprüfe so, dass du deinen Arduino ansteuern kannst und alles funktioniert.
+3. Nun steckt ihr nach Schaltplan (siehe unten) auf dem Breadboard alle Komponenten zusammen.
 
-<img src="Schaltung_Breadboard.jpeg" alt="Schaltung auf dem Breadboard" width="200">
+|![Logische Schaltung](Schaltplan_Breadboard_Logisch.jpg)|![Schaltung auf dem Breadboard](Schaltung_Breadboard.jpeg)|
+|--|--|
+| Schaltung logisch auf dem Breadboard | So könnte das fertige Steckbild in Wirklichkeit aussehen |
 
-
-3. Es gibt zwei Schwierigkeitsstufen: Nun könnt ihr entweder den leeren Programmrahmen aus dem Ordner `AdventWreathEmpty` oder den fertigen Code aus dem Ordner `AdventWreathComplete` auf euren Arduino hochladen
-4. Für den letzten Schliff: Macht einen 3D-Druck vom [Adventskranz](kranz.stl) um die LEDs in Form zu halten
+4. Für den Code gibt zwei Schwierigkeitsstufen: Nun kannst du entweder den leeren Programmrahmen aus dem Ordner `AdventWreathEmpty` oder den fertigen Code aus dem Ordner `AdventWreathComplete` auf deinen Arduino hochladen
+5. Für den letzten Schliff: Macht einen 3D-Druck vom [Adventskranz](kranz.stl) um die LEDs in Form zu halten
 
 ## Referenzen
 
