@@ -15,7 +15,7 @@ Auch wenn der Arduino vom Strom genommen wurde und wieder angesteckt wird, ist w
 - 4 LED in der Farbe eurer Wahl
 - 4 Widerstände 220 Ohm
 - 1 Taster
-- 1 Widerstand 10 kOhm
+- 1 Widerstand 100 kOhm
 - diverse Jumperkabel
 - Holz und Acryl für die Box
 
@@ -30,7 +30,8 @@ Auch wenn der Arduino vom Strom genommen wurde und wieder angesteckt wird, ist w
 | Schaltung logisch auf dem Breadboard | So könnte das fertige Steckbild in Wirklichkeit aussehen |
 
 4. Für den Code gibt zwei Schwierigkeitsstufen: Nun kannst du entweder den leeren Programmrahmen aus dem Ordner `AdventWreathEmpty` oder den fertigen Code aus dem Ordner `AdventWreathComplete` auf deinen Arduino hochladen
-5. Für den letzten Schliff: Macht einen 3D-Druck vom [Adventskranz](kranz.stl) um die LEDs in Form zu halten
+5. Wenn alles funktioniert, baue die Kiste zusammen und verlängere die Anschlüsse der LEDs mit JumperKabeln.
+6. Für den letzten Schliff: Macht einen 3D-Druck vom [Adventskranz](kranz.stl) um die LEDs in Form zu halten
 
 ## Referenzen
 
