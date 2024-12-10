@@ -21,7 +21,7 @@ Auch wenn der Arduino vom Strom genommen wurde und wieder angesteckt wird, ist w
 
 ## Anleitung
 
-1. Zuerst baust du aus [Holz](kasten.svg) und [Acryl](kerzen.svg) die Box eures Adventskranzes.
+1. Zuerst baust du aus [Holz](kasten_schnitt.02mm.svg) und [Acryl](kerzen.svg) die Box eures Adventskranzes.
 2. Verbinde zunächst eine LED mit einem Widerstand und deinem Arduino. Lasse die LED blinken und überprüfe so, dass du deinen Arduino ansteuern kannst und alles funktioniert.
 3. Nun steckt ihr nach Schaltplan (siehe unten) auf dem Breadboard alle Komponenten zusammen.
 
