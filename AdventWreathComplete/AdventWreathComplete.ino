@@ -1,9 +1,9 @@
 #include <EEPROM.h>
 
 // Verzögerung in ms, sodass jeder Tastendruck nur einmal gezählt wird.
-#define BUTTON_DELAY 500
+#define BUTTON_DELAY 250
 // Verzägerung in ms, damit die LEDs nur langsam nacheinander aufleuchten.
-#define LED_DELAY    500
+#define LED_DELAY    250
 #define lmillis() ((long)millis())
 
 const byte numLeds = 4;
@@ -23,11 +23,11 @@ void setup()
   EEPROM.get(eepromAddress, ledsLit);
   ledsLit = max(0, min(4, ledsLit));
   
-  // Pinmode des Buttons auf Eingabe festlegen
+  // Pinmode des Buttons auf Eingabe festlegen und Referenzwert setzen
   pinMode(buttonPin, INPUT);
+  digitalWrite(buttonPin, HIGH);
 
   // Pinmode der LED-Pins auf Ausgabe festlegen
-  pinMode(buttonPin, INPUT);
   for (byte i = 0; i < numLeds; i++) {
       pinMode(ledPins[i], OUTPUT);
   }
