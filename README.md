@@ -37,7 +37,7 @@ Außerdem zur Verschönerung:
 
 Wenn du alles richtig gemacht hast, kannst du abwechselnd die interne LED und externe LED blinken lassen.
 
-![Schaubild Testlauf](schritt01.jpg =500px)
+![Schaubild Testlauf](schritt01.jpg)
 
 
 ### 2. Die vollständige Schaltung
@@ -46,12 +46,12 @@ Wenn du alles richtig gemacht hast, kannst du abwechselnd die interne LED und ex
 2. Stell sicher, dass die Plus-Pole der LEDs an die Pins D2, D3, D7 und D10 angeschlossen sind
 3. Die Minuspole kannst du auf den gemeinsamen Pin GND ziehen.
 4. Lade den Quellcode [AdventBoxCode](AdventBoxCode/) auf den Arduino
-  * Alternativ kannst du versuchen das Programm selbst zu schreiben. Beginn mit [AdventBoxEmpty](AdventBoxEmpty/). Die Anzahl der leuchtenden Kerzen kannst du im [EEPROM](https://docs.arduino.cc/learn/built-in-libraries/eeprom/) speichern, damit sie auch bei getrennten Strom gespeichert werden.
+  * Alternativ kannst du versuchen das Programm selbst zu schreiben. Beginn mit [AdventBoxEmpty](AdventBoxEmpty/). Die Anzahl der leuchtenden Kerzen kannst du im [EEPROM](https://docs.arduino.cc/learn/built-in-libraries/eeprom/) ablegen, damit sie auch bei getrennten Strom gespeichert werden.
 
 Wenn du alles richtig gemacht hast, kannst du reihum die externen LEDs aufleuchten lassen.
 
 
-![Schaubild Schaltung](schritt02.jpg =500px)
+![Schaubild Schaltung](schritt02.jpg)
 
 ### 3. Bau die Box
 
@@ -59,7 +59,7 @@ Wenn du alles richtig gemacht hast, kannst du reihum die externen LEDs aufleucht
 Fertige folgende Materialien an, oder frage die Mentor:innen danach:
 
 1. Schneide mit dem Lasercutter die [Holzteile der Box](Lasercuttervorlagen/kasten_schnitt.02mm.svg).
-2. Schneide mit dem Lasercutter zwei lange und zwei kurze [Kerzen aus Acryl](Lasercuttervorlagen/kerzen.svg)
+2. Schneide mit dem Lasercutter zwei lange und zwei kurze [Kerzen aus Acryl](Lasercuttervorlagen/kerzen.svg).
 3. Drucke mit dem 3D-Drucker den [Kranz](kranz.stl) aus.
 4. Bau die Box bis auf ein Seitenteil zusammen, sodass du bequem deine Schaltung in die Box setzen kannst.
 5. Setz das Breadboard mit Arduino, Widerständen und Kabeln in die Box.
