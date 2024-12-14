@@ -27,17 +27,48 @@ Außerdem zur Verschönerung:
 
 ## Anleitung
 
-1. Zuerst baust du aus [Holz](Lasercuttervorlagen/) und [Acryl](kerzen.svg) die Box eures Adventskranzes.
-2. Verbinde zunächst eine LED mit einem Widerstand und deinem Arduino. Lasse die LED blinken und überprüfe so, dass du deinen Arduino ansteuern kannst und alles funktioniert.
-3. Nun steckt ihr nach Schaltplan (siehe unten) auf dem Breadboard alle Komponenten zusammen.
+### 1. Ein Testlauf
 
-|![Logische Schaltung](Schaltplan_Breadboard_Logisch.jpg)|![Schaltung auf dem Breadboard](Schaltung_Breadboard.jpeg)|
-|--|--|
-| Schaltung logisch auf dem Breadboard | So könnte das fertige Steckbild in Wirklichkeit aussehen |
+1. Nimm ein Breadboard und setze den Arduino auf
+2. Verbinde Pin D2 mit einem 220 Ohm Vorwiderstand und mit einer LED
+3. Verbinde Pin D8 mit dem Taster und dahinter einem 100 kOhm Widerstand
+4. Verbinde den Minus-Pol der LED und den 100 kOhm Widerstand mit GND am Arduino
+5. Lade den Quellcode [AdventBoxBlink](AdventBoxBlink/) auf den Arduino
 
-4. Für den Code gibt zwei Schwierigkeitsstufen: Nun kannst du entweder den leeren Programmrahmen aus dem Ordner `AdventWreathEmpty` oder den fertigen Code aus dem Ordner `AdventWreathComplete` auf deinen Arduino hochladen
-5. Wenn alles funktioniert, baue die Kiste zusammen und verlängere die Anschlüsse der LEDs mit JumperKabeln.
-6. Für den letzten Schliff: Macht einen 3D-Druck vom [Adventskranz](kranz.stl) um die LEDs in Form zu halten
+Wenn du alles richtig gemacht hast, kannst du abwechselnd die interne LED und externe LED blinken lassen.
+
+![Schaubild Testlauf](schritt01.jpg =500px)
+
+
+### 2. Die vollständige Schaltung
+
+1. Füge drei weitere LEDs mit 220 Ohm Vorwiderständen hinzu.
+2. Stell sicher, dass die Plus-Pole der LEDs an die Pins D2, D3, D7 und D10 angeschlossen sind
+3. Die Minuspole kannst du auf den gemeinsamen Pin GND ziehen.
+4. Lade den Quellcode [AdventBoxCode](AdventBoxCode/) auf den Arduino
+  * Alternativ kannst du versuchen das Programm selbst zu schreiben. Beginn mit [AdventBoxEmpty](AdventBoxEmpty/). Die Anzahl der leuchtenden Kerzen kannst du im [EEPROM](https://docs.arduino.cc/learn/built-in-libraries/eeprom/) speichern, damit sie auch bei getrennten Strom gespeichert werden.
+
+Wenn du alles richtig gemacht hast, kannst du reihum die externen LEDs aufleuchten lassen.
+
+
+![Schaubild Schaltung](schritt02.jpg =500px)
+
+### 3. Bau die Box
+
+
+Fertige folgende Materialien an, oder frage die Mentor:innen danach:
+
+1. Schneide mit dem Lasercutter die [Holzteile der Box](Lasercuttervorlagen/kasten_schnitt.02mm.svg).
+2. Schneide mit dem Lasercutter zwei lange und zwei kurze [Kerzen aus Acryl](Lasercuttervorlagen/kerzen.svg)
+3. Drucke mit dem 3D-Drucker den [Kranz](kranz.stl) aus.
+4. Bau die Box bis auf ein Seitenteil zusammen, sodass du bequem deine Schaltung in die Box setzen kannst.
+5. Setz das Breadboard mit Arduino, Widerständen und Kabeln in die Box.
+6. Verlängere die Anschlüsse der LEDs mit Jumperkabeln.
+6. Fädle die Kabel zu den LEDs durch die großen Löcher im Adventskranz und steck die LEDs ein.
+7. Schließe den Knopf an und teste deine Schaltung erneut.
+8. Schließ die Kiste und setze die Kerzen in die kleinen Löcher auf deinen Kranz.
+
+**Frohen Advent!**
 
 ## Referenzen
 
