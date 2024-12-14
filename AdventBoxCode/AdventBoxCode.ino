@@ -3,7 +3,7 @@
 // Verzögerung in ms, sodass jeder Tastendruck nur einmal gezählt wird.
 #define BUTTON_DELAY 250
 // Verzägerung in ms, damit die LEDs nur langsam nacheinander aufleuchten.
-#define LED_DELAY    250
+#define LED_DELAY    0
 #define lmillis() ((long)millis())
 
 const byte numLeds = 4;
