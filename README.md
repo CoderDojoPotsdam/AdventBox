@@ -50,7 +50,6 @@ Wenn du alles richtig gemacht hast, kannst du abwechselnd die interne LED und ex
 
 Wenn du alles richtig gemacht hast, kannst du reihum die externen LEDs aufleuchten lassen.
 
-
 ![Schaubild Schaltung](schritt02.jpg)
 
 ### 3. Bau die Box
@@ -67,6 +66,11 @@ Fertige folgende Materialien an, oder frage die Mentor:innen danach:
 6. Fädle die Kabel zu den LEDs durch die großen Löcher im Adventskranz und steck die LEDs ein.
 7. Schließe den Knopf an und teste deine Schaltung erneut.
 8. Schließ die Kiste und setze die Kerzen in die kleinen Löcher auf deinen Kranz.
+9. Optional: Du kannst den Kranz mit etwas Heißkleber befestigen.
+
+![Schaubild offene Kiste](schritt03.jpg)
+
+(Aus Fotogründen hingelegt. Baut sich einfacher aufrecht.)
 
 **Frohen Advent!**
 
