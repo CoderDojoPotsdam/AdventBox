@@ -21,7 +21,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
   
-  pinMode(buttonPin, INPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
   digitalWrite(buttonPin, HIGH);
 
   lastButtonPress = lmillis() + BUTTON_DELAY;

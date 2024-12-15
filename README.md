@@ -39,6 +39,8 @@ Wenn du alles richtig gemacht hast, kannst du abwechselnd die interne LED und ex
 
 ![Schaubild Testlauf](schritt01.jpg)
 
+Sollte die Schaltung nicht funktionieren, versuche den Taster direkt an den GND zu schließen, ohne den 110 kOhm Widerstand. Im Programm des Arduinos aktivieren wir einen zusätzlichen internen Widerstand (`INPUT_PULLUP`).
+
 
 ### 2. Die vollständige Schaltung
 

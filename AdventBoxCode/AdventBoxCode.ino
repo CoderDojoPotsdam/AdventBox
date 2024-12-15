@@ -24,7 +24,7 @@ void setup()
   ledsLit = max(0, min(4, ledsLit));
   
   // Pinmode des Buttons auf Eingabe festlegen und Referenzwert setzen
-  pinMode(buttonPin, INPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
   digitalWrite(buttonPin, HIGH);
 
   // Pinmode der LED-Pins auf Ausgabe festlegen
