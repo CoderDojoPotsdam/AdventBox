@@ -8,7 +8,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="kasten_schnitt.01mm.svg"
+   sodipodi:docname="kasten_schnitt0.1mm.svg"
    inkscape:export-filename="/Users/sven/Desktop/ChristmasMelody/case.png"
    inkscape:export-xdpi="70.008598"
    inkscape:export-ydpi="70.008598"
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.8055461"
-     inkscape:cx="284.2792"
+     inkscape:cx="283.6585"
      inkscape:cy="543.73052"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -227,13 +227,6 @@
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.265748;stroke-opacity:1"
-       id="circle36"
-       cx="-1063.7147"
-       cy="35.567638"
-       r="28.346455"
-       transform="scale(-1)" />
-    <circle
-       style="fill:none;stroke:#ff0000;stroke-width:0.265748;stroke-opacity:1"
        id="circle11"
        cx="1063.7147"
        cy="461.55832"
@@ -316,5 +309,9 @@
        style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.354331;stroke-linecap:round"
        vector-effect="non-scaling-stroke"
        sodipodi:nodetypes="ccccccccccccccc" />
+    <path
+       id="circle36-0"
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.354331;stroke-dasharray:none"
+       d="m 1063.9857,-106.58153 a 42.387886,39.868168 0 0 0 -42.3871,39.867552 42.387886,39.868168 0 0 0 13.8922,29.436034 28.346455,28.346455 0 0 0 -0.1226,1.710204 28.346455,28.346455 0 0 0 28.3465,28.3465562 28.346455,28.346455 0 0 0 28.3466,-28.3465562 28.346455,28.346455 0 0 0 -0.031,-1.2854 42.387886,39.868168 0 0 0 14.3445,-29.860838 42.387886,39.868168 0 0 0 -42.3889,-39.867552 z" />
   </g>
 </svg>

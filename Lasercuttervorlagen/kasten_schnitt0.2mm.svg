@@ -8,7 +8,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="kasten.svg"
+   sodipodi:docname="kasten_schnitt0.2mm.svg"
    inkscape:export-filename="/Users/sven/Desktop/ChristmasMelody/case.png"
    inkscape:export-xdpi="70.008598"
    inkscape:export-ydpi="70.008598"
@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49470843"
-     inkscape:cx="522.53001"
-     inkscape:cy="419.43898"
+     inkscape:zoom="1.168277"
+     inkscape:cx="730.56307"
+     inkscape:cy="257.21641"
      inkscape:document-units="mm"
-     inkscape:current-layer="g16"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1528"
      inkscape:window-height="992"
@@ -250,25 +250,14 @@
        style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.354331;stroke-linecap:round"
        vector-effect="non-scaling-stroke"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
-    <g
-       id="g17"
-       transform="translate(-7.4999996)">
-      <path
-         d="m 1159.0887,-142.75267 h -34.0157 v -14.1732 h -36.8505 v 14.1732 h -34.0157 v -14.1732 h -36.8504 v 14.1732 h -34.0157 v -14.1732 h -19.1339 v 60.2362 h -14.1732 v 36.8504 h 14.1732 v 34.0157 h -14.1732 v 36.8504 h 14.1732 v 34.0158 h -14.1732 v 36.8504 h 14.1732 v 34.01571 h -14.1732 v 36.85038 h 14.1732 v 60.23622 h 19.1339 34.0157 36.8504 34.0157 36.8505 34.0157 19.1339 v -60.23622 h 14.1732 v -36.85038 h -14.1732 V 81.89302 h 14.1732 V 45.04263 h -14.1732 v -34.0158 h 14.1732 v -36.8504 h -14.1732 v -34.0157 h 14.1732 v -36.8504 h -14.1732 v -60.2362 h -19.1339 z"
-         id="path10"
-         stroke="#FF0000"
-         stroke-width="0.1"
-         style="font-size:12px;display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.354331;stroke-linecap:round;stroke-opacity:1"
-         vector-effect="non-scaling-stroke"
-         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
-      <circle
-         style="fill:none;stroke:#ff0000;stroke-width:0.265748"
-         id="circle36"
-         cx="-1071.2147"
-         cy="35.567638"
-         r="28.346455"
-         transform="scale(-1)" />
-    </g>
+    <path
+       d="m 1151.5887,-142.75267 h -34.0157 v -14.1732 h -36.8505 v 14.1732 h -34.0157 v -14.1732 h -36.8504 v 14.1732 h -34.0157 v -14.1732 h -19.1339 v 60.2362 h -14.1732 v 36.8504 h 14.1732 v 34.0157 h -14.1732 v 36.8504 h 14.1732 v 34.0158 h -14.1732 v 36.8504 h 14.1732 v 34.01571 h -14.1732 v 36.85038 h 14.1732 v 60.23622 h 19.1339 34.0157 36.8504 34.0157 36.8505 34.0157 19.1339 v -60.23622 h 14.1732 v -36.85038 h -14.1732 V 81.89302 h 14.1732 V 45.04263 h -14.1732 v -34.0158 h 14.1732 v -36.8504 h -14.1732 v -34.0157 h 14.1732 v -36.8504 h -14.1732 v -60.2362 h -19.1339 z"
+       id="path10"
+       stroke="#FF0000"
+       stroke-width="0.1"
+       style="font-size:12px;display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.354331;stroke-linecap:round;stroke-opacity:1"
+       vector-effect="non-scaling-stroke"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
     <g
        id="g18"
        transform="translate(-7.4999996)">
@@ -305,6 +294,10 @@
          style="font-size:12px;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.354331;stroke-linecap:round"
          vector-effect="non-scaling-stroke"
          sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+      <path
+         id="circle36-7"
+         style="display:inline;fill:none;stroke:#ff0000;stroke-width:0.354331;stroke-dasharray:none"
+         d="m 1063.9857,-106.58153 a 42.387886,39.868168 0 0 0 -42.3871,39.867552 42.387886,39.868168 0 0 0 13.8922,29.436034 28.346455,28.346455 0 0 0 -0.1226,1.710204 28.346455,28.346455 0 0 0 28.3465,28.3465562 28.346455,28.346455 0 0 0 28.3466,-28.3465562 28.346455,28.346455 0 0 0 -0.031,-1.2854 42.387886,39.868168 0 0 0 14.3445,-29.860838 42.387886,39.868168 0 0 0 -42.3889,-39.867552 z" />
     </g>
   </g>
 </svg>
